@@ -53,7 +53,7 @@
                         Result
                     </div>
                     <div class="card-body">
-                        {#  Show result here using jinja #}
+                        {{ "$%.2f" % result if result else 'No result' }}
                     </div>
                 </div>
             </div>
