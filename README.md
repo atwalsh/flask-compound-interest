@@ -12,7 +12,7 @@ FYI -- HTML templates are using [Bootstrap][2] to make elements look nice.
 
 ---
 
-**Objectives:**
+*Objectives*
 
 1. Build a compound interest calculator. Figure out how to:
 
