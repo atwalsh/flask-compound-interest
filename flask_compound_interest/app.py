@@ -28,7 +28,7 @@ def calculate_compound_interest(p: int, i: float, t: int, n: int):
     :param n: Number of times that interest is compounded per year.
     :return: The future value of the investment.
     """
-    return p * ((1 + ((i / 100) / t)) ** (n * t))
+    return p * ((1 + (i / t)) ** (n * t))
 
 
 # Run the Flask app
