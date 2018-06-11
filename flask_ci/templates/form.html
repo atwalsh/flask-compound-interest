@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6">
+                <div class="card w-100">
+                    <div class="card-header">
+                        Compound interest form
+                    </div>
+                    <div class="card-body">
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for="principal">Principal amount</label>
+                                <input type="number" class="form-control" id="principal" name="principal"
+                                       placeholder="Enter principal">
+                                <small class="form-text text-muted">The principal investment amount.
+                                </small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="interest">Interest rate</label>
+                                <input type="number" class="form-control" id="interest" name="interest"
+                                       placeholder="Enter interest rate">
+                                <small class="form-text text-muted">The annual interest rate (decimal
+                                    form).
+                                </small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="years">Number of years</label>
+                                <input type="number" class="form-control" id="years" name="years"
+                                       placeholder="Enter number of years">
+                                <small class="form-text text-muted">Number of years the money is invested
+                                    for.
+                                </small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="times_per_year">Times per year</label>
+                                <input type="number" class="form-control" id="times_per_year" name="times_per_year"
+                                       placeholder="Enter times per year">
+                                <small class="form-text text-muted">Number of times that interest
+                                    is compounded per year.
+                                </small>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Result
+                    </div>
+                    <div class="card-body">
+                        {#  Show result here using jinja #}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
