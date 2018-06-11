@@ -1,4 +1,4 @@
-# flask-ci
+# flask-compound-interest
 
 A flask introduction app that calculates compound interest.
 
