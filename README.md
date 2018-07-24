@@ -35,6 +35,8 @@ http://flask.pocoo.org/docs/latest/
 
 https://www.thecalculatorsite.com/articles/finance/compound-interest-formula.php
 
+Solution is on the [solution branch][4]
 
 [2]:http://getbootstrap.com/
 [3]:https://github.com/pyenv/pyenv
+[4]:https://github.com/atwalsh/flask-compound-interest/tree/solution
