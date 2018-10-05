@@ -4,9 +4,9 @@ A flask introduction app that calculates compound interest.
 
 
 *Before you start:*
-1. Get Python 3.6+ installed ([pyenv][3] makes it easy)
+1. Get Python 3.7.0 installed ([pyenv][3] makes it easy)
 2. Get PyCharm installed
-3. Install `flask` (look up how to use `pip`)
+3. Install `flask` (look up how to use `Pipenv`)
 
 FYI -- HTML templates are using [Bootstrap][2] to make elements look nice.
 
